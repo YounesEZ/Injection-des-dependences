@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class DynamicInstance {
     public static void main (String[] args) throws FileNotFoundException, ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, InvocationTargetException {
-        Scanner s = new Scanner(new File("src/config.txt"));
+        Scanner s = new Scanner(new File("config.txt"));
 
         String daoClassName = s.nextLine();
         Class cDao = Class.forName(daoClassName);
