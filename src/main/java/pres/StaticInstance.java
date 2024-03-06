@@ -9,8 +9,7 @@ import metier.MetierImpl;
 public class StaticInstance {
     public static void main(String[] args) {
         DaoImpl dao = new DaoImpl();
-        //MetierImpl metier = new MetierImpl();
-        // metier.setDao(dao);
-        //System.out.println("result is : " + metier.calcul());
+        MetierImpl metier = new MetierImpl(dao);
+        System.out.println("result is : " + metier.calcul());
     }
 }
