@@ -19,7 +19,7 @@ public class DynamicInstance {
 
         String metierClassName = s.nextLine();
         Class cMetier = Class.forName(metierClassName);
-        IMetier metier = (IMetier) cMetier.newInstance();
+        IMetier metier = (IMetier) cMetier.getConstructor(IDao.class).newInstance(dao);
 
         Method setterDao = cMetier.getMethod("setDao", IDao.class);
         setterDao.invoke(metier, dao);
