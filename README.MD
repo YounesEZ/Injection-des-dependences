@@ -1,15 +1,15 @@
 <h3>Compte rendu - Injection des Dependences</h3>
 <h4>Objectif : Realiser l'injection des dependances</h4>
-<h4>Activités :&nbsp;
-1. Créer l'interface IDao avec une méthode getDate
-2. Créer une implémentation de cette interface
-3. Créer l'interface IMetier avec une méthode calcul
-4. Créer une implémentation de cette interface en utilisant le couplage faible
-5. Faire l'injection des dépendances :
-   a. Par instanciation statique
-   b. Par instanciation dynamique
-   c. En utilisant le Framework Spring
-   - Version XML
+<h4>Activités :<br/>
+1. Créer l'interface IDao avec une méthode getDate<br/>
+2. Créer une implémentation de cette interface<br/>
+3. Créer l'interface IMetier avec une méthode calcul<br/>
+4. Créer une implémentation de cette interface en utilisant le couplage faible<br/>
+5. Faire l'injection des dépendances :<br/>
+   a. Par instanciation statique<br/>
+   b. Par instanciation dynamique<br/>
+   c. En utilisant le Framework Spring<br/>
+   - Version XML<br/>
    - Version annotations</h4>
 
 <h4>Modelisation :</h4>
